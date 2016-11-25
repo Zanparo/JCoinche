@@ -20,6 +20,7 @@ public class Room {
         _teams[0] = new Team(0, _players.get(0), _players.get(1));
         _teams[1] = new Team(1, _players.get(2), _players.get(3));
         _scoreMax = scoreMax;
+        launchGame();
     }
 
     public void launchGame()
