@@ -52,7 +52,6 @@ public class Room {
     public void makeContract()
     {
 
-
     }
 
     public boolean isGameEnded()
