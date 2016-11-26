@@ -14,8 +14,10 @@ public class Room {
     private Team[] _teams = new Team[2];
     private int _scoreMax;
     private Player _currentPlayer;
+    private String _roomName;
 
-    public Room(int scoreMax) {
+    public Room(int scoreMax, String name) {
+        _roomName = name;
         _players.add(new Player("Roger"));
         _players.add(new Player("Philippe"));
         _players.add(new Player("Trevor"));
@@ -42,7 +44,7 @@ public class Room {
             System.out.println("For player :" + player.getName());
             player.showHand();
         }
-        startGame();
+      //  startGame();
     }
 
     public void startGame()
@@ -93,5 +95,10 @@ public class Room {
             return _teams[0];
         else
             return _teams[1];
+    }
+
+    public String getName()
+    {
+        return _roomName;
     }
 }
