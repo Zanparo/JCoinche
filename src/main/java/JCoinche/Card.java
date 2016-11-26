@@ -1,35 +1,67 @@
 package JCoinche;
 
+import JCoinche.Enum.tAtout;
+import JCoinche.Enum.tValue;
+
 /**
  * Created by samue on 24/11/2016.
  */
-public class Card {
-    public enum tColor {
-        HEARTS,
-        SPADES,
-        DIAMONDS,
-        CLUBS
-    };
+public class Card implements ICard{
 
-    public enum tValue {
-        SEVEN,
-        EIGHT,
-        NINE,
-        TEN,
-        JACK,
-        QUEEN,
-        KING,
-        ACE
-    }
     private tValue _value;
-    private tColor _color;
+    private tAtout _color;
+    private int _points = 0;
 
-    public Card(tColor color, tValue value){
+    public Card(tAtout color, tValue value){
         _color = color;
         _value = value;
     }
 
-    public tColor getColor(){
+    public void setPoints(tAtout atout)
+    {
+        switch (_value) {
+            case NINE:
+                if (isAtout(atout)) {
+                    _points = 14;
+                }
+                break;
+            case TEN:
+                _points = 10;
+                break;
+            case JACK:
+                if (isAtout(atout))
+                {
+                    _points = 20;
+                }
+                else
+                {
+                    _points = 2;
+                }
+                break;
+            case QUEEN:
+                _points = 3;
+                break;
+            case KING:
+                _points = 4;
+                break;
+            case ACE :
+                _points = 11;
+                break;
+        }
+    }
+
+    public int getPoints() {
+        return _points;
+    }
+
+    private boolean isAtout(tAtout atout)
+    {
+        if (_color == atout || atout == tAtout.FULL)
+            return true;
+        return false;
+    }
+
+    public tAtout getColor(){
         return _color;
     }
 

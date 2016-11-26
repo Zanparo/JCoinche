@@ -1,5 +1,7 @@
 package JCoinche;
 
+import JCoinche.Enum.tAtout;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,6 +13,7 @@ public class Room {
     private List<Player> _players = new ArrayList<Player>();
     private Team[] _teams = new Team[2];
     private int _scoreMax;
+    private Player _currentPlayer;
 
     public Room(int scoreMax) {
         _players.add(new Player("Roger"));
@@ -20,6 +23,7 @@ public class Room {
         _teams[0] = new Team(0, _players.get(0), _players.get(1));
         _teams[1] = new Team(1, _players.get(2), _players.get(3));
         _scoreMax = scoreMax;
+        _currentPlayer = _players.get((int)(Math.random() * 4));
         launchGame();
     }
 
@@ -32,26 +36,48 @@ public class Room {
     {
         _deck.shuffle();
         _deck.distribute(_players);
+        Round round = new Round(makeContract(), _players);
         for (Player player : _players)
         {
             System.out.println("For player :" + player.getName());
             player.showHand();
         }
+        startGame();
     }
 
     public void startGame()
     {
         while (!isGameEnded())
         {
-            makeContract();
-
+            System.out.println("Waiting for " + _currentPlayer.getName() + " to play.");
+            Contract contract = makeContract();
+            Round round = new Round(contract, _players);
         }
         Team winner = getWinners();
     }
 
-    public void makeContract()
+    public Contract makeContract()
     {
+        return new Contract(80, _teams[0], tAtout.HEARTS);
+    }
 
+    public boolean addPlayer(Player player)
+    {
+        if (_players.size() < 4) {
+            _players.add(player);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean removePlayer(Player player)
+    {
+        if (_players.contains(player))
+        {
+            removePlayer(player);
+            return true;
+        }
+        return false;
     }
 
     public boolean isGameEnded()
