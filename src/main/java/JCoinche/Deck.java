@@ -1,5 +1,8 @@
 package JCoinche;
 
+import JCoinche.Enum.tValue;
+import JCoinche.Enum.tAtout;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,38 +16,38 @@ public class Deck {
     public Deck()
     {
         _cards = new ArrayList<Card>();
-        _cards.add(new Card(Card.tColor.CLUBS, Card.tValue.ACE));
-        _cards.add(new Card(Card.tColor.CLUBS, Card.tValue.SEVEN));
-        _cards.add(new Card(Card.tColor.CLUBS, Card.tValue.EIGHT));
-        _cards.add(new Card(Card.tColor.CLUBS, Card.tValue.NINE));
-        _cards.add(new Card(Card.tColor.CLUBS, Card.tValue.TEN));
-        _cards.add(new Card(Card.tColor.CLUBS, Card.tValue.JACK));
-        _cards.add(new Card(Card.tColor.CLUBS, Card.tValue.QUEEN));
-        _cards.add(new Card(Card.tColor.CLUBS, Card.tValue.KING));
-        _cards.add(new Card(Card.tColor.HEARTS, Card.tValue.ACE));
-        _cards.add(new Card(Card.tColor.HEARTS, Card.tValue.SEVEN));
-        _cards.add(new Card(Card.tColor.HEARTS, Card.tValue.EIGHT));
-        _cards.add(new Card(Card.tColor.HEARTS, Card.tValue.NINE));
-        _cards.add(new Card(Card.tColor.HEARTS, Card.tValue.TEN));
-        _cards.add(new Card(Card.tColor.HEARTS, Card.tValue.JACK));
-        _cards.add(new Card(Card.tColor.HEARTS, Card.tValue.QUEEN));
-        _cards.add(new Card(Card.tColor.HEARTS, Card.tValue.KING));
-        _cards.add(new Card(Card.tColor.DIAMONDS, Card.tValue.ACE));
-        _cards.add(new Card(Card.tColor.DIAMONDS, Card.tValue.SEVEN));
-        _cards.add(new Card(Card.tColor.DIAMONDS, Card.tValue.EIGHT));
-        _cards.add(new Card(Card.tColor.DIAMONDS, Card.tValue.NINE));
-        _cards.add(new Card(Card.tColor.DIAMONDS, Card.tValue.TEN));
-        _cards.add(new Card(Card.tColor.DIAMONDS, Card.tValue.JACK));
-        _cards.add(new Card(Card.tColor.DIAMONDS, Card.tValue.QUEEN));
-        _cards.add(new Card(Card.tColor.DIAMONDS, Card.tValue.KING));
-        _cards.add(new Card(Card.tColor.SPADES, Card.tValue.ACE));
-        _cards.add(new Card(Card.tColor.SPADES, Card.tValue.SEVEN));
-        _cards.add(new Card(Card.tColor.SPADES, Card.tValue.EIGHT));
-        _cards.add(new Card(Card.tColor.SPADES, Card.tValue.NINE));
-        _cards.add(new Card(Card.tColor.SPADES, Card.tValue.TEN));
-        _cards.add(new Card(Card.tColor.SPADES, Card.tValue.JACK));
-        _cards.add(new Card(Card.tColor.SPADES, Card.tValue.QUEEN));
-        _cards.add(new Card(Card.tColor.SPADES, Card.tValue.KING));
+        _cards.add(new Card(tAtout.CLUBS, tValue.ACE));
+        _cards.add(new Card(tAtout.CLUBS, tValue.SEVEN));
+        _cards.add(new Card(tAtout.CLUBS, tValue.EIGHT));
+        _cards.add(new Card(tAtout.CLUBS, tValue.NINE));
+        _cards.add(new Card(tAtout.CLUBS, tValue.TEN));
+        _cards.add(new Card(tAtout.CLUBS, tValue.JACK));
+        _cards.add(new Card(tAtout.CLUBS, tValue.QUEEN));
+        _cards.add(new Card(tAtout.CLUBS, tValue.KING));
+        _cards.add(new Card(tAtout.HEARTS, tValue.ACE));
+        _cards.add(new Card(tAtout.HEARTS, tValue.SEVEN));
+        _cards.add(new Card(tAtout.HEARTS, tValue.EIGHT));
+        _cards.add(new Card(tAtout.HEARTS, tValue.NINE));
+        _cards.add(new Card(tAtout.HEARTS, tValue.TEN));
+        _cards.add(new Card(tAtout.HEARTS, tValue.JACK));
+        _cards.add(new Card(tAtout.HEARTS, tValue.QUEEN));
+        _cards.add(new Card(tAtout.HEARTS, tValue.KING));
+        _cards.add(new Card(tAtout.DIAMONDS, tValue.ACE));
+        _cards.add(new Card(tAtout.DIAMONDS, tValue.SEVEN));
+        _cards.add(new Card(tAtout.DIAMONDS, tValue.EIGHT));
+        _cards.add(new Card(tAtout.DIAMONDS, tValue.NINE));
+        _cards.add(new Card(tAtout.DIAMONDS, tValue.TEN));
+        _cards.add(new Card(tAtout.DIAMONDS, tValue.JACK));
+        _cards.add(new Card(tAtout.DIAMONDS, tValue.QUEEN));
+        _cards.add(new Card(tAtout.DIAMONDS, tValue.KING));
+        _cards.add(new Card(tAtout.SPADES, tValue.ACE));
+        _cards.add(new Card(tAtout.SPADES, tValue.SEVEN));
+        _cards.add(new Card(tAtout.SPADES, tValue.EIGHT));
+        _cards.add(new Card(tAtout.SPADES, tValue.NINE));
+        _cards.add(new Card(tAtout.SPADES, tValue.TEN));
+        _cards.add(new Card(tAtout.SPADES, tValue.JACK));
+        _cards.add(new Card(tAtout.SPADES, tValue.QUEEN));
+        _cards.add(new Card(tAtout.SPADES, tValue.KING));
     }
 
     public void shuffle() {

@@ -3,7 +3,7 @@ package JCoinche;
 /**
  * Created by samue on 24/11/2016.
  */
-public class Team {
+public class Team  implements ITeam{
 
     private Player[] _members = new Player[2];
     private int _id;
@@ -19,6 +19,10 @@ public class Team {
     public int getScore()
     {
         return _score;
+    }
+
+    public Player[] getMembers() {
+        return _members;
     }
 
     public void addToScore(int score)

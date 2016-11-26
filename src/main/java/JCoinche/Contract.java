@@ -1,5 +1,7 @@
 package JCoinche;
 
+import JCoinche.Enum.tAtout;
+
 /**
  * Created by samue on 25/11/2016.
  */
