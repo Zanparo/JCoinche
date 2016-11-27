@@ -59,6 +59,7 @@ public class                Interpretor implements IInterpretor {
                 break;
             case 4:
                 ret = manageStart(msg, client);
+                break;
             default:
                 ret = "1|No parsing for this kind of actions";
         }
@@ -102,8 +103,8 @@ public class                Interpretor implements IInterpretor {
             Room room = _server.createRoom(msg);
             Player play = new Player("Natalie", client);
             room.addPlayer(play);
-            client.addPlayer(play);
             play.joinRoom(room);
+            client.addPlayer(play);
             ret = "Welcome to the new room : " + room.getName() + ".";
         }
         System.out.println("Return of the function");
@@ -113,10 +114,9 @@ public class                Interpretor implements IInterpretor {
     private String manageStart(String msg, ClientSession client)
     {
         String ret = "";
-        if (!msg.equals("Ready"))
-            ret = "1|\"" + msg + "\" is not a command.";
-        else
-            ret = client.getPlayer().getRoom().isReady() + "/4 players are Ready. Waiting for the other player.";
+
+        ret = client.getPlayer().getRoom().isReady() + "/4 players are Ready. Waiting for the other player.";
+        System.out.println("RET = " + ret);
         return (ret);
     }
 
