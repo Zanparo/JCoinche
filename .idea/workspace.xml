@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="793f7f19-f48d-457e-a463-67cf86192269" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JCoinche/Player.java" afterPath="$PROJECT_DIR$/src/main/java/JCoinche/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JCoinche/Contract.java" afterPath="$PROJECT_DIR$/src/main/java/JCoinche/Contract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JCoinche/JCoinche.java" afterPath="$PROJECT_DIR$/src/main/java/JCoinche/JCoinche.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jcoinche.proto" afterPath="$PROJECT_DIR$/src/main/resources/jcoinche.proto" />
     </list>
     <ignored path="JCoinche.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +34,8 @@
       <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Room#0" expanded="false" />
@@ -66,18 +67,38 @@
       <file leaf-file-name="Contract.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Contract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="66">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jcoinche.proto" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jcoinche.proto" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/jcoinche.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="490">
+              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="7" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tAtout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tAtout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="8" selection-start-line="8" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -86,8 +107,8 @@
       <file leaf-file-name="JCoincheProtos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/proto/jcoinche/JCoincheProtos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38059">
-              <caret line="2030" column="36" selection-start-line="2030" selection-start-column="36" selection-end-line="2030" selection-end-column="36" />
+            <state relative-caret-position="53921">
+              <caret line="2751" column="7" selection-start-line="2751" selection-start-column="7" selection-end-line="2751" selection-end-column="7" />
               <folding>
                 <element signature="e#1924#1925#0" expanded="true" />
                 <element signature="e#1952#1953#0" expanded="true" />
@@ -108,7 +129,6 @@
                 <element signature="e#14531#14532#0" expanded="true" />
                 <element signature="e#14629#14630#0" expanded="true" />
                 <element signature="e#15117#15118#0" expanded="true" />
-                <element signature="e#15168#15169#0" expanded="true" />
                 <element signature="e#16059#16060#0" expanded="true" />
                 <element signature="e#16157#16158#0" expanded="true" />
                 <element signature="e#17552#17553#0" expanded="true" />
@@ -116,11 +136,10 @@
                 <element signature="e#19474#19475#0" expanded="true" />
                 <element signature="e#19503#19504#0" expanded="true" />
                 <element signature="e#20386#20387#0" expanded="true" />
-                <element signature="e#20452#20453#0" expanded="true" />
                 <element signature="e#22476#22477#0" expanded="true" />
                 <element signature="e#22542#22543#0" expanded="true" />
                 <element signature="e#22646#22647#0" expanded="true" />
-                <element signature="e#22680#22681#0" expanded="true" />
+                <element signature="e#47889#47890#0" expanded="true" />
                 <element signature="e#23576#23577#0" expanded="true" />
                 <element signature="e#23642#23643#0" expanded="true" />
                 <element signature="e#28521#28522#0" expanded="true" />
@@ -192,7 +211,6 @@
                 <element signature="e#62658#62659#0" expanded="true" />
                 <element signature="e#62720#62721#0" expanded="true" />
                 <element signature="e#62808#62809#0" expanded="true" />
-                <element signature="e#62834#62835#0" expanded="true" />
                 <element signature="e#68974#68975#0" expanded="true" />
                 <element signature="e#69023#69024#0" expanded="true" />
                 <element signature="e#69947#69948#0" expanded="true" />
@@ -200,7 +218,6 @@
                 <element signature="e#70553#70554#0" expanded="true" />
                 <element signature="e#70604#70605#0" expanded="true" />
                 <element signature="e#72688#72689#0" expanded="true" />
-                <element signature="e#72736#72737#0" expanded="true" />
                 <element signature="e#74591#74592#0" expanded="true" />
                 <element signature="e#74620#74621#0" expanded="true" />
                 <element signature="e#75514#75515#0" expanded="true" />
@@ -223,23 +240,6 @@
                 <element signature="e#80476#80477#0" expanded="true" />
                 <element signature="e#80560#80561#0" expanded="true" />
                 <element signature="e#80597#80598#0" expanded="true" />
-                <element signature="e#81465#81466#0" expanded="true" />
-                <element signature="e#81492#81493#0" expanded="true" />
-                <element signature="e#82326#82632#0" expanded="true" />
-                <element signature="e#82631#82632#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Card.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-              <folding>
-                <element signature="e#1414#1415#0" expanded="true" />
-                <element signature="e#1443#1444#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -248,8 +248,8 @@
       <file leaf-file-name="JCoinche.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/JCoinche.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -293,27 +293,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Deck.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Deck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="176">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#Deck#0" expanded="false" />
                 <element signature="method#Deck#0;class#Deck#0" expanded="false" />
                 <element signature="method#shuffle#0;class#Deck#0" expanded="false" />
                 <element signature="method#distribute#0;class#Deck#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/manifest/java/META-INF/MANIFEST.MF">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -361,11 +351,12 @@
         <option value="$PROJECT_DIR$/src/main/java/JCoincheProtos/JCoinche/JCoincheProtos.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/JCoincheProtos/JCoincheProtos.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/Team.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/jcoinche.proto" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/JCoinche/JCoinche.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JCoinche/JCoinche.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JCoinche/Contract.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jcoinche.proto" />
       </list>
     </option>
   </component>
@@ -520,6 +511,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JCoinche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JCoinche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JCoinche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JCoinche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Enum" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -845,13 +866,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3194292" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3194292" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -887,12 +908,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/JCoinche/Room.java</url>
           <line>35</line>
           <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JCoinche/Deck.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="3" />
@@ -978,7 +993,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1090,7 +1105,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1144,25 +1159,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/HelloWorld.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/IMessage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tAtout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tColor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/ICard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1188,7 +1189,7 @@
         <state relative-caret-position="638">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1268,14 +1269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Contract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Team.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1289,8 +1282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/proto/jcoinche/JCoincheProtos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38059">
-          <caret line="2030" column="36" selection-start-line="2030" selection-start-column="36" selection-end-line="2030" selection-end-column="36" />
+        <state relative-caret-position="53921">
+          <caret line="2751" column="7" selection-start-line="2751" selection-start-column="7" selection-end-line="2751" selection-end-column="7" />
           <folding>
             <element signature="e#1924#1925#0" expanded="true" />
             <element signature="e#1952#1953#0" expanded="true" />
@@ -1311,7 +1304,6 @@
             <element signature="e#14531#14532#0" expanded="true" />
             <element signature="e#14629#14630#0" expanded="true" />
             <element signature="e#15117#15118#0" expanded="true" />
-            <element signature="e#15168#15169#0" expanded="true" />
             <element signature="e#16059#16060#0" expanded="true" />
             <element signature="e#16157#16158#0" expanded="true" />
             <element signature="e#17552#17553#0" expanded="true" />
@@ -1319,11 +1311,10 @@
             <element signature="e#19474#19475#0" expanded="true" />
             <element signature="e#19503#19504#0" expanded="true" />
             <element signature="e#20386#20387#0" expanded="true" />
-            <element signature="e#20452#20453#0" expanded="true" />
             <element signature="e#22476#22477#0" expanded="true" />
             <element signature="e#22542#22543#0" expanded="true" />
             <element signature="e#22646#22647#0" expanded="true" />
-            <element signature="e#22680#22681#0" expanded="true" />
+            <element signature="e#47889#47890#0" expanded="true" />
             <element signature="e#23576#23577#0" expanded="true" />
             <element signature="e#23642#23643#0" expanded="true" />
             <element signature="e#28521#28522#0" expanded="true" />
@@ -1395,7 +1386,6 @@
             <element signature="e#62658#62659#0" expanded="true" />
             <element signature="e#62720#62721#0" expanded="true" />
             <element signature="e#62808#62809#0" expanded="true" />
-            <element signature="e#62834#62835#0" expanded="true" />
             <element signature="e#68974#68975#0" expanded="true" />
             <element signature="e#69023#69024#0" expanded="true" />
             <element signature="e#69947#69948#0" expanded="true" />
@@ -1403,7 +1393,6 @@
             <element signature="e#70553#70554#0" expanded="true" />
             <element signature="e#70604#70605#0" expanded="true" />
             <element signature="e#72688#72689#0" expanded="true" />
-            <element signature="e#72736#72737#0" expanded="true" />
             <element signature="e#74591#74592#0" expanded="true" />
             <element signature="e#74620#74621#0" expanded="true" />
             <element signature="e#75514#75515#0" expanded="true" />
@@ -1426,19 +1415,7 @@
             <element signature="e#80476#80477#0" expanded="true" />
             <element signature="e#80560#80561#0" expanded="true" />
             <element signature="e#80597#80598#0" expanded="true" />
-            <element signature="e#81465#81466#0" expanded="true" />
-            <element signature="e#81492#81493#0" expanded="true" />
-            <element signature="e#82326#82632#0" expanded="true" />
-            <element signature="e#82631#82632#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jcoinche.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,34 +1424,6 @@
         <state relative-caret-position="511">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/JCoinche.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Room#0" expanded="false" />
-            <element signature="e#334#342#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
-            <element signature="e#2869#2870#0" expanded="true" />
-            <element signature="e#2909#2910#0" expanded="true" />
-            <element signature="e#2949#2950#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1512,16 +1461,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/JCoinche.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="176">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Deck#0" expanded="false" />
             <element signature="method#Deck#0;class#Deck#0" expanded="false" />
             <element signature="method#shuffle#0;class#Deck#0" expanded="false" />
             <element signature="method#distribute#0;class#Deck#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Contract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tAtout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="8" selection-start-line="8" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="7" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Room#0" expanded="false" />
+            <element signature="e#334#342#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#2837#2838#0" expanded="true" />
+            <element signature="e#2869#2870#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
+            <element signature="e#2949#2950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jcoinche.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -10,7 +10,6 @@ import java.security.spec.ECField;
  */
 public class JCoinche {
     public static void main(String[] args) {
-        //System.out.println("Hello World");
         Room room = new Room(500, "room1");
 
         /*try

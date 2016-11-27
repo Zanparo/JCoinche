@@ -14,6 +14,276 @@ public final class JCoincheProtos {
     registerAllExtensions(
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
+  /**
+   * Protobuf enum {@code JCoinche.tAtout}
+   */
+  public enum tAtout
+      implements com.google.protobuf.ProtocolMessageEnum {
+    /**
+     * <code>DIAMONDS = 0;</code>
+     */
+    DIAMONDS(0),
+    /**
+     * <code>HEARTS = 1;</code>
+     */
+    HEARTS(1),
+    /**
+     * <code>SPADES = 2;</code>
+     */
+    SPADES(2),
+    /**
+     * <code>CLUBS = 3;</code>
+     */
+    CLUBS(3),
+    /**
+     * <code>NONE = 4;</code>
+     */
+    NONE(4),
+    /**
+     * <code>FULL = 5;</code>
+     */
+    FULL(5),
+    ;
+
+    /**
+     * <code>DIAMONDS = 0;</code>
+     */
+    public static final int DIAMONDS_VALUE = 0;
+    /**
+     * <code>HEARTS = 1;</code>
+     */
+    public static final int HEARTS_VALUE = 1;
+    /**
+     * <code>SPADES = 2;</code>
+     */
+    public static final int SPADES_VALUE = 2;
+    /**
+     * <code>CLUBS = 3;</code>
+     */
+    public static final int CLUBS_VALUE = 3;
+    /**
+     * <code>NONE = 4;</code>
+     */
+    public static final int NONE_VALUE = 4;
+    /**
+     * <code>FULL = 5;</code>
+     */
+    public static final int FULL_VALUE = 5;
+
+
+    public final int getNumber() {
+      return value;
+    }
+
+    /**
+     * @deprecated Use {@link #forNumber(int)} instead.
+     */
+    @java.lang.Deprecated
+    public static tAtout valueOf(int value) {
+      return forNumber(value);
+    }
+
+    public static tAtout forNumber(int value) {
+      switch (value) {
+        case 0: return DIAMONDS;
+        case 1: return HEARTS;
+        case 2: return SPADES;
+        case 3: return CLUBS;
+        case 4: return NONE;
+        case 5: return FULL;
+        default: return null;
+      }
+    }
+
+    public static com.google.protobuf.Internal.EnumLiteMap<tAtout>
+        internalGetValueMap() {
+      return internalValueMap;
+    }
+    private static final com.google.protobuf.Internal.EnumLiteMap<
+        tAtout> internalValueMap =
+          new com.google.protobuf.Internal.EnumLiteMap<tAtout>() {
+            public tAtout findValueByNumber(int number) {
+              return tAtout.forNumber(number);
+            }
+          };
+
+    public final com.google.protobuf.Descriptors.EnumValueDescriptor
+        getValueDescriptor() {
+      return getDescriptor().getValues().get(ordinal());
+    }
+    public final com.google.protobuf.Descriptors.EnumDescriptor
+        getDescriptorForType() {
+      return getDescriptor();
+    }
+    public static final com.google.protobuf.Descriptors.EnumDescriptor
+        getDescriptor() {
+      return io.proto.jcoinche.JCoincheProtos.getDescriptor().getEnumTypes().get(0);
+    }
+
+    private static final tAtout[] VALUES = values();
+
+    public static tAtout valueOf(
+        com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
+      if (desc.getType() != getDescriptor()) {
+        throw new java.lang.IllegalArgumentException(
+          "EnumValueDescriptor is not for this type.");
+      }
+      return VALUES[desc.getIndex()];
+    }
+
+    private final int value;
+
+    private tAtout(int value) {
+      this.value = value;
+    }
+
+    // @@protoc_insertion_point(enum_scope:JCoinche.tAtout)
+  }
+
+  /**
+   * Protobuf enum {@code JCoinche.tValue}
+   */
+  public enum tValue
+      implements com.google.protobuf.ProtocolMessageEnum {
+    /**
+     * <code>SEVEN = 0;</code>
+     */
+    SEVEN(0),
+    /**
+     * <code>EIGHT = 1;</code>
+     */
+    EIGHT(1),
+    /**
+     * <code>NINE = 2;</code>
+     */
+    NINE(2),
+    /**
+     * <code>TEN = 3;</code>
+     */
+    TEN(3),
+    /**
+     * <code>JACK = 4;</code>
+     */
+    JACK(4),
+    /**
+     * <code>QUEEN = 5;</code>
+     */
+    QUEEN(5),
+    /**
+     * <code>KING = 6;</code>
+     */
+    KING(6),
+    /**
+     * <code>ACE = 7;</code>
+     */
+    ACE(7),
+    ;
+
+    /**
+     * <code>SEVEN = 0;</code>
+     */
+    public static final int SEVEN_VALUE = 0;
+    /**
+     * <code>EIGHT = 1;</code>
+     */
+    public static final int EIGHT_VALUE = 1;
+    /**
+     * <code>NINE = 2;</code>
+     */
+    public static final int NINE_VALUE = 2;
+    /**
+     * <code>TEN = 3;</code>
+     */
+    public static final int TEN_VALUE = 3;
+    /**
+     * <code>JACK = 4;</code>
+     */
+    public static final int JACK_VALUE = 4;
+    /**
+     * <code>QUEEN = 5;</code>
+     */
+    public static final int QUEEN_VALUE = 5;
+    /**
+     * <code>KING = 6;</code>
+     */
+    public static final int KING_VALUE = 6;
+    /**
+     * <code>ACE = 7;</code>
+     */
+    public static final int ACE_VALUE = 7;
+
+
+    public final int getNumber() {
+      return value;
+    }
+
+    /**
+     * @deprecated Use {@link #forNumber(int)} instead.
+     */
+    @java.lang.Deprecated
+    public static tValue valueOf(int value) {
+      return forNumber(value);
+    }
+
+    public static tValue forNumber(int value) {
+      switch (value) {
+        case 0: return SEVEN;
+        case 1: return EIGHT;
+        case 2: return NINE;
+        case 3: return TEN;
+        case 4: return JACK;
+        case 5: return QUEEN;
+        case 6: return KING;
+        case 7: return ACE;
+        default: return null;
+      }
+    }
+
+    public static com.google.protobuf.Internal.EnumLiteMap<tValue>
+        internalGetValueMap() {
+      return internalValueMap;
+    }
+    private static final com.google.protobuf.Internal.EnumLiteMap<
+        tValue> internalValueMap =
+          new com.google.protobuf.Internal.EnumLiteMap<tValue>() {
+            public tValue findValueByNumber(int number) {
+              return tValue.forNumber(number);
+            }
+          };
+
+    public final com.google.protobuf.Descriptors.EnumValueDescriptor
+        getValueDescriptor() {
+      return getDescriptor().getValues().get(ordinal());
+    }
+    public final com.google.protobuf.Descriptors.EnumDescriptor
+        getDescriptorForType() {
+      return getDescriptor();
+    }
+    public static final com.google.protobuf.Descriptors.EnumDescriptor
+        getDescriptor() {
+      return io.proto.jcoinche.JCoincheProtos.getDescriptor().getEnumTypes().get(1);
+    }
+
+    private static final tValue[] VALUES = values();
+
+    public static tValue valueOf(
+        com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
+      if (desc.getType() != getDescriptor()) {
+        throw new java.lang.IllegalArgumentException(
+          "EnumValueDescriptor is not for this type.");
+      }
+      return VALUES[desc.getIndex()];
+    }
+
+    private final int value;
+
+    private tValue(int value) {
+      this.value = value;
+    }
+
+    // @@protoc_insertion_point(enum_scope:JCoinche.tValue)
+  }
+
   public interface RoomOrBuilder extends
       // @@protoc_insertion_point(interface_extends:JCoinche.Room)
       com.google.protobuf.MessageOrBuilder {
@@ -2397,32 +2667,22 @@ public final class JCoincheProtos {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string color = 1;</code>
+     * <code>optional .JCoinche.tAtout color = 1;</code>
      */
     boolean hasColor();
     /**
-     * <code>optional string color = 1;</code>
+     * <code>optional .JCoinche.tAtout color = 1;</code>
      */
-    java.lang.String getColor();
-    /**
-     * <code>optional string color = 1;</code>
-     */
-    com.google.protobuf.ByteString
-        getColorBytes();
+    io.proto.jcoinche.JCoincheProtos.tAtout getColor();
 
     /**
-     * <code>optional string value = 2;</code>
+     * <code>optional .JCoinche.tValue value = 2;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional string value = 2;</code>
+     * <code>optional .JCoinche.tValue value = 2;</code>
      */
-    java.lang.String getValue();
-    /**
-     * <code>optional string value = 2;</code>
-     */
-    com.google.protobuf.ByteString
-        getValueBytes();
+    io.proto.jcoinche.JCoincheProtos.tValue getValue();
   }
   /**
    * Protobuf type {@code JCoinche.Card}
@@ -2436,8 +2696,8 @@ public final class JCoincheProtos {
       super(builder);
     }
     private Card() {
-      color_ = "";
-      value_ = "";
+      color_ = 0;
+      value_ = 0;
     }
 
     @java.lang.Override
@@ -2468,16 +2728,26 @@ public final class JCoincheProtos {
               }
               break;
             }
-            case 10: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000001;
-              color_ = bs;
+            case 8: {
+              int rawValue = input.readEnum();
+              io.proto.jcoinche.JCoincheProtos.tAtout value = io.proto.jcoinche.JCoincheProtos.tAtout.valueOf(rawValue);
+              if (value == null) {
+                unknownFields.mergeVarintField(1, rawValue);
+              } else {
+                bitField0_ |= 0x00000001;
+                color_ = rawValue;
+              }
               break;
             }
-            case 18: {
-              com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000002;
-              value_ = bs;
+            case 16: {
+              int rawValue = input.readEnum();
+              io.proto.jcoinche.JCoincheProtos.tValue value = io.proto.jcoinche.JCoincheProtos.tValue.valueOf(rawValue);
+              if (value == null) {
+                unknownFields.mergeVarintField(2, rawValue);
+              } else {
+                bitField0_ |= 0x00000002;
+                value_ = rawValue;
+              }
               break;
             }
           }
@@ -2506,87 +2776,35 @@ public final class JCoincheProtos {
 
     private int bitField0_;
     public static final int COLOR_FIELD_NUMBER = 1;
-    private volatile java.lang.Object color_;
+    private int color_;
     /**
-     * <code>optional string color = 1;</code>
+     * <code>optional .JCoinche.tAtout color = 1;</code>
      */
     public boolean hasColor() {
       return ((bitField0_ & 0x00000001) == 0x00000001);
     }
     /**
-     * <code>optional string color = 1;</code>
+     * <code>optional .JCoinche.tAtout color = 1;</code>
      */
-    public java.lang.String getColor() {
-      java.lang.Object ref = color_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          color_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string color = 1;</code>
-     */
-    public com.google.protobuf.ByteString
-        getColorBytes() {
-      java.lang.Object ref = color_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        color_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public io.proto.jcoinche.JCoincheProtos.tAtout getColor() {
+      io.proto.jcoinche.JCoincheProtos.tAtout result = io.proto.jcoinche.JCoincheProtos.tAtout.valueOf(color_);
+      return result == null ? io.proto.jcoinche.JCoincheProtos.tAtout.DIAMONDS : result;
     }
 
     public static final int VALUE_FIELD_NUMBER = 2;
-    private volatile java.lang.Object value_;
+    private int value_;
     /**
-     * <code>optional string value = 2;</code>
+     * <code>optional .JCoinche.tValue value = 2;</code>
      */
     public boolean hasValue() {
       return ((bitField0_ & 0x00000002) == 0x00000002);
     }
     /**
-     * <code>optional string value = 2;</code>
+     * <code>optional .JCoinche.tValue value = 2;</code>
      */
-    public java.lang.String getValue() {
-      java.lang.Object ref = value_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          value_ = s;
-        }
-        return s;
-      }
-    }
-    /**
-     * <code>optional string value = 2;</code>
-     */
-    public com.google.protobuf.ByteString
-        getValueBytes() {
-      java.lang.Object ref = value_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        value_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+    public io.proto.jcoinche.JCoincheProtos.tValue getValue() {
+      io.proto.jcoinche.JCoincheProtos.tValue result = io.proto.jcoinche.JCoincheProtos.tValue.valueOf(value_);
+      return result == null ? io.proto.jcoinche.JCoincheProtos.tValue.SEVEN : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -2602,10 +2820,10 @@ public final class JCoincheProtos {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, color_);
+        output.writeEnum(1, color_);
       }
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, value_);
+        output.writeEnum(2, value_);
       }
       unknownFields.writeTo(output);
     }
@@ -2616,10 +2834,12 @@ public final class JCoincheProtos {
 
       size = 0;
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, color_);
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(1, color_);
       }
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, value_);
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(2, value_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -2640,13 +2860,11 @@ public final class JCoincheProtos {
       boolean result = true;
       result = result && (hasColor() == other.hasColor());
       if (hasColor()) {
-        result = result && getColor()
-            .equals(other.getColor());
+        result = result && color_ == other.color_;
       }
       result = result && (hasValue() == other.hasValue());
       if (hasValue()) {
-        result = result && getValue()
-            .equals(other.getValue());
+        result = result && value_ == other.value_;
       }
       result = result && unknownFields.equals(other.unknownFields);
       return result;
@@ -2661,11 +2879,11 @@ public final class JCoincheProtos {
       hash = (19 * hash) + getDescriptorForType().hashCode();
       if (hasColor()) {
         hash = (37 * hash) + COLOR_FIELD_NUMBER;
-        hash = (53 * hash) + getColor().hashCode();
+        hash = (53 * hash) + color_;
       }
       if (hasValue()) {
         hash = (37 * hash) + VALUE_FIELD_NUMBER;
-        hash = (53 * hash) + getValue().hashCode();
+        hash = (53 * hash) + value_;
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -2785,9 +3003,9 @@ public final class JCoincheProtos {
       }
       public Builder clear() {
         super.clear();
-        color_ = "";
+        color_ = 0;
         bitField0_ = (bitField0_ & ~0x00000001);
-        value_ = "";
+        value_ = 0;
         bitField0_ = (bitField0_ & ~0x00000002);
         return this;
       }
@@ -2864,14 +3082,10 @@ public final class JCoincheProtos {
       public Builder mergeFrom(io.proto.jcoinche.JCoincheProtos.Card other) {
         if (other == io.proto.jcoinche.JCoincheProtos.Card.getDefaultInstance()) return this;
         if (other.hasColor()) {
-          bitField0_ |= 0x00000001;
-          color_ = other.color_;
-          onChanged();
+          setColor(other.getColor());
         }
         if (other.hasValue()) {
-          bitField0_ |= 0x00000002;
-          value_ = other.value_;
-          onChanged();
+          setValue(other.getValue());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -2901,154 +3115,74 @@ public final class JCoincheProtos {
       }
       private int bitField0_;
 
-      private java.lang.Object color_ = "";
+      private int color_ = 0;
       /**
-       * <code>optional string color = 1;</code>
+       * <code>optional .JCoinche.tAtout color = 1;</code>
        */
       public boolean hasColor() {
         return ((bitField0_ & 0x00000001) == 0x00000001);
       }
       /**
-       * <code>optional string color = 1;</code>
+       * <code>optional .JCoinche.tAtout color = 1;</code>
        */
-      public java.lang.String getColor() {
-        java.lang.Object ref = color_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            color_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      public io.proto.jcoinche.JCoincheProtos.tAtout getColor() {
+        io.proto.jcoinche.JCoincheProtos.tAtout result = io.proto.jcoinche.JCoincheProtos.tAtout.valueOf(color_);
+        return result == null ? io.proto.jcoinche.JCoincheProtos.tAtout.DIAMONDS : result;
       }
       /**
-       * <code>optional string color = 1;</code>
+       * <code>optional .JCoinche.tAtout color = 1;</code>
        */
-      public com.google.protobuf.ByteString
-          getColorBytes() {
-        java.lang.Object ref = color_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          color_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string color = 1;</code>
-       */
-      public Builder setColor(
-          java.lang.String value) {
+      public Builder setColor(io.proto.jcoinche.JCoincheProtos.tAtout value) {
         if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000001;
-        color_ = value;
+          throw new NullPointerException();
+        }
+        bitField0_ |= 0x00000001;
+        color_ = value.getNumber();
         onChanged();
         return this;
       }
       /**
-       * <code>optional string color = 1;</code>
+       * <code>optional .JCoinche.tAtout color = 1;</code>
        */
       public Builder clearColor() {
         bitField0_ = (bitField0_ & ~0x00000001);
-        color_ = getDefaultInstance().getColor();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string color = 1;</code>
-       */
-      public Builder setColorBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000001;
-        color_ = value;
+        color_ = 0;
         onChanged();
         return this;
       }
 
-      private java.lang.Object value_ = "";
+      private int value_ = 0;
       /**
-       * <code>optional string value = 2;</code>
+       * <code>optional .JCoinche.tValue value = 2;</code>
        */
       public boolean hasValue() {
         return ((bitField0_ & 0x00000002) == 0x00000002);
       }
       /**
-       * <code>optional string value = 2;</code>
+       * <code>optional .JCoinche.tValue value = 2;</code>
        */
-      public java.lang.String getValue() {
-        java.lang.Object ref = value_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            value_ = s;
-          }
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      public io.proto.jcoinche.JCoincheProtos.tValue getValue() {
+        io.proto.jcoinche.JCoincheProtos.tValue result = io.proto.jcoinche.JCoincheProtos.tValue.valueOf(value_);
+        return result == null ? io.proto.jcoinche.JCoincheProtos.tValue.SEVEN : result;
       }
       /**
-       * <code>optional string value = 2;</code>
+       * <code>optional .JCoinche.tValue value = 2;</code>
        */
-      public com.google.protobuf.ByteString
-          getValueBytes() {
-        java.lang.Object ref = value_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          value_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>optional string value = 2;</code>
-       */
-      public Builder setValue(
-          java.lang.String value) {
+      public Builder setValue(io.proto.jcoinche.JCoincheProtos.tValue value) {
         if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000002;
-        value_ = value;
+          throw new NullPointerException();
+        }
+        bitField0_ |= 0x00000002;
+        value_ = value.getNumber();
         onChanged();
         return this;
       }
       /**
-       * <code>optional string value = 2;</code>
+       * <code>optional .JCoinche.tValue value = 2;</code>
        */
       public Builder clearValue() {
         bitField0_ = (bitField0_ & ~0x00000002);
-        value_ = getDefaultInstance().getValue();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string value = 2;</code>
-       */
-      public Builder setValueBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  bitField0_ |= 0x00000002;
-        value_ = value;
+        value_ = 0;
         onChanged();
         return this;
       }
@@ -3136,9 +3270,14 @@ public final class JCoincheProtos {
       "Player\"B\n\006Player\022\014\n\004name\030\001 \001(\t\022\014\n\004team\030\002" +
       " \001(\005\022\034\n\004room\030\003 \001(\0132\016.JCoinche.Room\"6\n\010Co" +
       "ntract\022\r\n\005atout\030\001 \001(\t\022\r\n\005value\030\002 \001(\005\022\014\n\004" +
-      "team\030\003 \001(\005\"$\n\004Card\022\r\n\005color\030\001 \001(\t\022\r\n\005val" +
-      "ue\030\002 \001(\tB#\n\021io.proto.jcoincheB\016JCoincheP" +
-      "rotos"
+      "team\030\003 \001(\005\"H\n\004Card\022\037\n\005color\030\001 \001(\0162\020.JCoi" +
+      "nche.tAtout\022\037\n\005value\030\002 \001(\0162\020.JCoinche.tV" +
+      "alue*M\n\006tAtout\022\014\n\010DIAMONDS\020\000\022\n\n\006HEARTS\020\001" +
+      "\022\n\n\006SPADES\020\002\022\t\n\005CLUBS\020\003\022\010\n\004NONE\020\004\022\010\n\004FUL",
+      "L\020\005*Y\n\006tValue\022\t\n\005SEVEN\020\000\022\t\n\005EIGHT\020\001\022\010\n\004N" +
+      "INE\020\002\022\007\n\003TEN\020\003\022\010\n\004JACK\020\004\022\t\n\005QUEEN\020\005\022\010\n\004K" +
+      "ING\020\006\022\007\n\003ACE\020\007B#\n\021io.proto.jcoincheB\016JCo" +
+      "incheProtos"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -6,7 +6,7 @@ import JCoinche.Enum.tAtout;
  * Created by samue on 25/11/2016.
  */
 public class Contract {
-    private int _value;
+    private int _value = 0;
     private Team _team;
     private tAtout _atout;
     private boolean _coinche;
@@ -22,6 +22,13 @@ public class Contract {
     private boolean isCorrect()
     {
         if (_value >= 80 && _value <= 160 && _value % 10 == 0)
+            return true;
+        return false;
+    }
+
+    private boolean isBetterThan(Contract contract)
+    {
+        if (_value > contract.getValue())
             return true;
         return false;
     }
