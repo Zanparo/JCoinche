@@ -3,6 +3,26 @@ package JCoinche;
 option java_package = "io.proto.jcoinche";
 option java_outer_classname = "JCoincheProtos";
 
+enum tAtout {
+    DIAMONDS = 0;
+    HEARTS = 1;
+    SPADES = 2;
+    CLUBS = 3;
+    NONE = 4;
+    FULL = 5;
+}
+
+enum tValue {
+    SEVEN = 0;
+    EIGHT = 1;
+    NINE = 2;
+    TEN = 3;
+    JACK = 4;
+    QUEEN = 5;
+    KING = 6;
+    ACE = 7;
+}
+
 message Room {
     optional string name = 1;
     optional int32 scoreMax = 2;
@@ -22,6 +42,6 @@ message Contract {
 }
 
 message Card {
-    optional string color = 1;
-    optional string value = 2;
+    optional tAtout color = 1;
+    optional tValue value = 2;
 }

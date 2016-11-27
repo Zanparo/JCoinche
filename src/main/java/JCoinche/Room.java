@@ -1,6 +1,5 @@
 package JCoinche;
 
-import JCoinche.Enum.tAtout;
 import Server.ClientSession;
 import io.proto.jcoinche.JCoincheProtos;
 
@@ -57,7 +56,7 @@ public class Room {
 
     public Contract makeContract()
     {
-        Contract contract = new Contract(80, _teams[0], tAtout.HEARTS);
+        Contract contract = new Contract(80, _teams[0], JCoincheProtos.tAtout.HEARTS);
         JCoincheProtos.Contract.Builder build = JCoincheProtos.Contract.newBuilder();
         build.setAtout(contract.getAtout().toString());
         build.setValue(contract.getValue());

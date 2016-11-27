@@ -1,7 +1,6 @@
 package JCoinche;
 
-import JCoinche.Enum.tAtout;
-
+import io.proto.jcoinche.JCoincheProtos.tAtout;
 /**
  * Created by samue on 25/11/2016.
  */

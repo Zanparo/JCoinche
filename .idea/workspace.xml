@@ -7,9 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="793f7f19-f48d-457e-a463-67cf86192269" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/JCoinche/Enum/tAtout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/JCoinche/Enum/tValue.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JCoinche_jar/JCoinche.jar" afterPath="$PROJECT_DIR$/out/artifacts/JCoinche_jar/JCoinche.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/JCoinche/Card$1.class" afterPath="$PROJECT_DIR$/target/classes/JCoinche/Card$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/JCoinche/Card.class" afterPath="$PROJECT_DIR$/target/classes/JCoinche/Card.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/JCoinche/Contract.class" afterPath="$PROJECT_DIR$/target/classes/JCoinche/Contract.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/JCoinche/Deck.class" afterPath="$PROJECT_DIR$/target/classes/JCoinche/Deck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/JCoinche/ICard.class" afterPath="$PROJECT_DIR$/target/classes/JCoinche/ICard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/JCoinche/JCoinche.class" afterPath="$PROJECT_DIR$/target/classes/JCoinche/JCoinche.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/JCoinche/Player.class" afterPath="$PROJECT_DIR$/target/classes/JCoinche/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/JCoinche/Room.class" afterPath="$PROJECT_DIR$/target/classes/JCoinche/Room.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/JCoinche/Round.class" afterPath="$PROJECT_DIR$/target/classes/JCoinche/Round.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Server/Interpretor.class" afterPath="$PROJECT_DIR$/target/classes/Server/Interpretor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$1.class" afterPath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Contract$1.class" afterPath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Contract$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Contract$Builder.class" afterPath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Contract$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Contract.class" afterPath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Contract.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Player$1.class" afterPath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Player$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Player$Builder.class" afterPath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Player$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Player.class" afterPath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Room$1.class" afterPath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Room$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Room$Builder.class" afterPath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Room$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Room.class" afterPath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos$Room.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos.class" afterPath="$PROJECT_DIR$/target/classes/io/proto/jcoinche/JCoincheProtos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JCoinche/Card.java" afterPath="$PROJECT_DIR$/src/main/java/JCoinche/Card.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JCoinche/Contract.java" afterPath="$PROJECT_DIR$/src/main/java/JCoinche/Contract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JCoinche/JCoinche.java" afterPath="$PROJECT_DIR$/src/main/java/JCoinche/JCoinche.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jcoinche.proto" afterPath="$PROJECT_DIR$/src/main/resources/jcoinche.proto" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JCoinche/Deck.java" afterPath="$PROJECT_DIR$/src/main/java/JCoinche/Deck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JCoinche/Enum/tAtout.java" afterPath="$PROJECT_DIR$/src/main/java/JCoinche/Enum/tAtout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JCoinche/Enum/tValue.java" afterPath="$PROJECT_DIR$/src/main/java/JCoinche/Enum/tValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JCoinche/ICard.java" afterPath="$PROJECT_DIR$/src/main/java/JCoinche/ICard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JCoinche/Room.java" afterPath="$PROJECT_DIR$/src/main/java/JCoinche/Room.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jcoinche.proto" afterPath="$PROJECT_DIR$/target/classes/jcoinche.proto" />
     </list>
     <ignored path="JCoinche.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,34 +61,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Room.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+            <state relative-caret-position="286">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#Room#0" expanded="false" />
-                <element signature="e#334#342#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#2837#2838#0" expanded="true" />
-                <element signature="e#2869#2870#0" expanded="true" />
-                <element signature="e#2909#2910#0" expanded="true" />
-                <element signature="e#2949#2950#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Team.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Team.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#305#313#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#2823#2824#0" expanded="true" />
+                <element signature="e#2855#2856#0" expanded="true" />
+                <element signature="e#2895#2896#0" expanded="true" />
+                <element signature="e#2935#2936#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,18 +84,18 @@
       <file leaf-file-name="Contract.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Contract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="110">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jcoinche.proto" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jcoinche.proto" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/jcoinche.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+            <state relative-caret-position="440">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -87,8 +104,8 @@
       <file leaf-file-name="tValue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="7" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="352">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -97,149 +114,34 @@
       <file leaf-file-name="tAtout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tAtout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="8" selection-start-line="8" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="308">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JCoincheProtos.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/proto/jcoinche/JCoincheProtos.java">
+      <file leaf-file-name="ICard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/ICard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53921">
-              <caret line="2751" column="7" selection-start-line="2751" selection-start-column="7" selection-end-line="2751" selection-end-column="7" />
+            <state relative-caret-position="286">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
-                <element signature="e#1924#1925#0" expanded="true" />
-                <element signature="e#1952#1953#0" expanded="true" />
-                <element signature="e#2121#2122#0" expanded="true" />
-                <element signature="e#2160#2161#0" expanded="true" />
-                <element signature="e#4403#4404#0" expanded="true" />
-                <element signature="e#4497#4498#0" expanded="true" />
-                <element signature="e#5088#5089#0" expanded="true" />
-                <element signature="e#5150#5151#0" expanded="true" />
-                <element signature="e#6279#6280#0" expanded="true" />
-                <element signature="e#6341#6342#0" expanded="true" />
-                <element signature="e#6437#6438#0" expanded="true" />
-                <element signature="e#6467#6468#0" expanded="true" />
-                <element signature="e#6717#6718#0" expanded="true" />
-                <element signature="e#6779#6780#0" expanded="true" />
-                <element signature="e#13574#13575#0" expanded="true" />
-                <element signature="e#13623#13624#0" expanded="true" />
-                <element signature="e#14531#14532#0" expanded="true" />
-                <element signature="e#14629#14630#0" expanded="true" />
-                <element signature="e#15117#15118#0" expanded="true" />
-                <element signature="e#16059#16060#0" expanded="true" />
-                <element signature="e#16157#16158#0" expanded="true" />
-                <element signature="e#17552#17553#0" expanded="true" />
-                <element signature="e#17600#17601#0" expanded="true" />
-                <element signature="e#19474#19475#0" expanded="true" />
-                <element signature="e#19503#19504#0" expanded="true" />
-                <element signature="e#20386#20387#0" expanded="true" />
-                <element signature="e#22476#22477#0" expanded="true" />
-                <element signature="e#22542#22543#0" expanded="true" />
-                <element signature="e#22646#22647#0" expanded="true" />
-                <element signature="e#47889#47890#0" expanded="true" />
-                <element signature="e#23576#23577#0" expanded="true" />
-                <element signature="e#23642#23643#0" expanded="true" />
-                <element signature="e#28521#28522#0" expanded="true" />
-                <element signature="e#28558#28559#0" expanded="true" />
-                <element signature="e#28657#29003#0" expanded="true" />
-                <element signature="e#29002#29003#0" expanded="true" />
-                <element signature="e#29066#29067#0" expanded="true" />
-                <element signature="e#29093#29094#0" expanded="true" />
-                <element signature="e#29183#29184#0" expanded="true" />
-                <element signature="e#29210#29211#0" expanded="true" />
-                <element signature="e#29290#29291#0" expanded="true" />
-                <element signature="e#29327#29328#0" expanded="true" />
-                <element signature="e#30692#30693#0" expanded="true" />
-                <element signature="e#30720#30721#0" expanded="true" />
-                <element signature="e#30887#30888#0" expanded="true" />
-                <element signature="e#30926#30927#0" expanded="true" />
-                <element signature="e#33127#33128#0" expanded="true" />
-                <element signature="e#33223#33224#0" expanded="true" />
-                <element signature="e#33820#33821#0" expanded="true" />
-                <element signature="e#33882#33883#0" expanded="true" />
-                <element signature="e#34995#34996#0" expanded="true" />
-                <element signature="e#35057#35058#0" expanded="true" />
-                <element signature="e#35145#35146#0" expanded="true" />
-                <element signature="e#35171#35172#0" expanded="true" />
-                <element signature="e#35381#35382#0" expanded="true" />
-                <element signature="e#35443#35444#0" expanded="true" />
-                <element signature="e#42050#42051#0" expanded="true" />
-                <element signature="e#42099#42100#0" expanded="true" />
-                <element signature="e#43015#43016#0" expanded="true" />
-                <element signature="e#43115#43116#0" expanded="true" />
-                <element signature="e#43611#43612#0" expanded="true" />
-                <element signature="e#43662#43663#0" expanded="true" />
-                <element signature="e#44513#44514#0" expanded="true" />
-                <element signature="e#44613#44614#0" expanded="true" />
-                <element signature="e#45969#45970#0" expanded="true" />
-                <element signature="e#46017#46018#0" expanded="true" />
-                <element signature="e#47860#47861#0" expanded="true" />
-                <element signature="e#47889#47890#0" expanded="true" />
-                <element signature="e#48776#48777#0" expanded="true" />
-                <element signature="e#48842#48843#0" expanded="true" />
-                <element signature="e#50854#50855#0" expanded="true" />
-                <element signature="e#50920#50921#0" expanded="true" />
-                <element signature="e#51016#51017#0" expanded="true" />
-                <element signature="e#51046#51047#0" expanded="true" />
-                <element signature="e#51872#51873#0" expanded="true" />
-                <element signature="e#51938#51939#0" expanded="true" />
-                <element signature="e#56365#56366#0" expanded="true" />
-                <element signature="e#56402#56403#0" expanded="true" />
-                <element signature="e#56503#56855#0" expanded="true" />
-                <element signature="e#56854#56855#0" expanded="true" />
-                <element signature="e#56920#56921#0" expanded="true" />
-                <element signature="e#56947#56948#0" expanded="true" />
-                <element signature="e#57039#57040#0" expanded="true" />
-                <element signature="e#57066#57067#0" expanded="true" />
-                <element signature="e#57148#57149#0" expanded="true" />
-                <element signature="e#57185#57186#0" expanded="true" />
-                <element signature="e#58383#58384#0" expanded="true" />
-                <element signature="e#58411#58412#0" expanded="true" />
-                <element signature="e#58599#58600#0" expanded="true" />
-                <element signature="e#58638#58639#0" expanded="true" />
-                <element signature="e#60420#60421#0" expanded="true" />
-                <element signature="e#60518#60519#0" expanded="true" />
-                <element signature="e#61125#61126#0" expanded="true" />
-                <element signature="e#61187#61188#0" expanded="true" />
-                <element signature="e#62312#62313#0" expanded="true" />
-                <element signature="e#62374#62375#0" expanded="true" />
-                <element signature="e#62464#62465#0" expanded="true" />
-                <element signature="e#62491#62492#0" expanded="true" />
-                <element signature="e#62658#62659#0" expanded="true" />
-                <element signature="e#62720#62721#0" expanded="true" />
-                <element signature="e#62808#62809#0" expanded="true" />
-                <element signature="e#68974#68975#0" expanded="true" />
-                <element signature="e#69023#69024#0" expanded="true" />
-                <element signature="e#69947#69948#0" expanded="true" />
-                <element signature="e#70049#70050#0" expanded="true" />
-                <element signature="e#70553#70554#0" expanded="true" />
-                <element signature="e#70604#70605#0" expanded="true" />
-                <element signature="e#72688#72689#0" expanded="true" />
-                <element signature="e#74591#74592#0" expanded="true" />
-                <element signature="e#74620#74621#0" expanded="true" />
-                <element signature="e#75514#75515#0" expanded="true" />
-                <element signature="e#75580#75581#0" expanded="true" />
-                <element signature="e#77613#77614#0" expanded="true" />
-                <element signature="e#77679#77680#0" expanded="true" />
-                <element signature="e#77777#77778#0" expanded="true" />
-                <element signature="e#77808#77809#0" expanded="true" />
-                <element signature="e#78377#78378#0" expanded="true" />
-                <element signature="e#78443#78444#0" expanded="true" />
-                <element signature="e#78539#78540#0" expanded="true" />
-                <element signature="e#78569#78570#0" expanded="true" />
-                <element signature="e#79763#79764#0" expanded="true" />
-                <element signature="e#79800#79801#0" expanded="true" />
-                <element signature="e#79903#80261#0" expanded="true" />
-                <element signature="e#80260#80261#0" expanded="true" />
-                <element signature="e#80328#80329#0" expanded="true" />
-                <element signature="e#80355#80356#0" expanded="true" />
-                <element signature="e#80449#80450#0" expanded="true" />
-                <element signature="e#80476#80477#0" expanded="true" />
-                <element signature="e#80560#80561#0" expanded="true" />
-                <element signature="e#80597#80598#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
+                <element signature="e#1548#1549#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -296,11 +198,10 @@
       <file leaf-file-name="Deck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
               <folding>
                 <element signature="docComment;class#Deck#0" expanded="false" />
-                <element signature="method#Deck#0;class#Deck#0" expanded="false" />
                 <element signature="method#shuffle#0;class#Deck#0" expanded="false" />
                 <element signature="method#distribute#0;class#Deck#0" expanded="false" />
               </folding>
@@ -335,11 +236,7 @@
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/IMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/tColor.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/tValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JCoinche/Enum/tValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JCoinche/Deck.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/Round.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JCoinche/Card.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JCoinche/ICard.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/Interfaces/IActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/IActor.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/ITeam.java" />
@@ -352,10 +249,15 @@
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/JCoincheProtos/JCoincheProtos.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/Team.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/JCoinche/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/JCoinche.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JCoinche/Enum/tAtout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JCoinche/Enum/tValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JCoinche/ICard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JCoinche/Card.java" />
         <option value="$PROJECT_DIR$/src/main/java/JCoinche/Contract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JCoinche/Room.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JCoinche/Deck.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jcoinche.proto" />
       </list>
     </option>
@@ -872,7 +774,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -903,13 +805,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JCoinche/Room.java</url>
-          <line>35</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
@@ -1019,13 +914,13 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#Room#0" expanded="false" />
-            <element signature="e#334#342#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
-            <element signature="e#2869#2870#0" expanded="true" />
-            <element signature="e#2909#2910#0" expanded="true" />
-            <element signature="e#2949#2950#0" expanded="true" />
+            <element signature="e#305#313#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2855#2856#0" expanded="true" />
+            <element signature="e#2895#2896#0" expanded="true" />
+            <element signature="e#2935#2936#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1131,13 +1026,13 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#Room#0" expanded="false" />
-            <element signature="e#334#342#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
-            <element signature="e#2869#2870#0" expanded="true" />
-            <element signature="e#2909#2910#0" expanded="true" />
-            <element signature="e#2949#2950#0" expanded="true" />
+            <element signature="e#305#313#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2855#2856#0" expanded="true" />
+            <element signature="e#2895#2896#0" expanded="true" />
+            <element signature="e#2935#2936#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1160,13 +1055,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/HelloWorld.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/IMessage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tColor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/ICard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/IActor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1258,17 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-          <folding>
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Team.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1282,140 +1159,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/proto/jcoinche/JCoincheProtos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53921">
-          <caret line="2751" column="7" selection-start-line="2751" selection-start-column="7" selection-end-line="2751" selection-end-column="7" />
-          <folding>
-            <element signature="e#1924#1925#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#2121#2122#0" expanded="true" />
-            <element signature="e#2160#2161#0" expanded="true" />
-            <element signature="e#4403#4404#0" expanded="true" />
-            <element signature="e#4497#4498#0" expanded="true" />
-            <element signature="e#5088#5089#0" expanded="true" />
-            <element signature="e#5150#5151#0" expanded="true" />
-            <element signature="e#6279#6280#0" expanded="true" />
-            <element signature="e#6341#6342#0" expanded="true" />
-            <element signature="e#6437#6438#0" expanded="true" />
-            <element signature="e#6467#6468#0" expanded="true" />
-            <element signature="e#6717#6718#0" expanded="true" />
-            <element signature="e#6779#6780#0" expanded="true" />
-            <element signature="e#13574#13575#0" expanded="true" />
-            <element signature="e#13623#13624#0" expanded="true" />
-            <element signature="e#14531#14532#0" expanded="true" />
-            <element signature="e#14629#14630#0" expanded="true" />
-            <element signature="e#15117#15118#0" expanded="true" />
-            <element signature="e#16059#16060#0" expanded="true" />
-            <element signature="e#16157#16158#0" expanded="true" />
-            <element signature="e#17552#17553#0" expanded="true" />
-            <element signature="e#17600#17601#0" expanded="true" />
-            <element signature="e#19474#19475#0" expanded="true" />
-            <element signature="e#19503#19504#0" expanded="true" />
-            <element signature="e#20386#20387#0" expanded="true" />
-            <element signature="e#22476#22477#0" expanded="true" />
-            <element signature="e#22542#22543#0" expanded="true" />
-            <element signature="e#22646#22647#0" expanded="true" />
-            <element signature="e#47889#47890#0" expanded="true" />
-            <element signature="e#23576#23577#0" expanded="true" />
-            <element signature="e#23642#23643#0" expanded="true" />
-            <element signature="e#28521#28522#0" expanded="true" />
-            <element signature="e#28558#28559#0" expanded="true" />
-            <element signature="e#28657#29003#0" expanded="true" />
-            <element signature="e#29002#29003#0" expanded="true" />
-            <element signature="e#29066#29067#0" expanded="true" />
-            <element signature="e#29093#29094#0" expanded="true" />
-            <element signature="e#29183#29184#0" expanded="true" />
-            <element signature="e#29210#29211#0" expanded="true" />
-            <element signature="e#29290#29291#0" expanded="true" />
-            <element signature="e#29327#29328#0" expanded="true" />
-            <element signature="e#30692#30693#0" expanded="true" />
-            <element signature="e#30720#30721#0" expanded="true" />
-            <element signature="e#30887#30888#0" expanded="true" />
-            <element signature="e#30926#30927#0" expanded="true" />
-            <element signature="e#33127#33128#0" expanded="true" />
-            <element signature="e#33223#33224#0" expanded="true" />
-            <element signature="e#33820#33821#0" expanded="true" />
-            <element signature="e#33882#33883#0" expanded="true" />
-            <element signature="e#34995#34996#0" expanded="true" />
-            <element signature="e#35057#35058#0" expanded="true" />
-            <element signature="e#35145#35146#0" expanded="true" />
-            <element signature="e#35171#35172#0" expanded="true" />
-            <element signature="e#35381#35382#0" expanded="true" />
-            <element signature="e#35443#35444#0" expanded="true" />
-            <element signature="e#42050#42051#0" expanded="true" />
-            <element signature="e#42099#42100#0" expanded="true" />
-            <element signature="e#43015#43016#0" expanded="true" />
-            <element signature="e#43115#43116#0" expanded="true" />
-            <element signature="e#43611#43612#0" expanded="true" />
-            <element signature="e#43662#43663#0" expanded="true" />
-            <element signature="e#44513#44514#0" expanded="true" />
-            <element signature="e#44613#44614#0" expanded="true" />
-            <element signature="e#45969#45970#0" expanded="true" />
-            <element signature="e#46017#46018#0" expanded="true" />
-            <element signature="e#47860#47861#0" expanded="true" />
-            <element signature="e#47889#47890#0" expanded="true" />
-            <element signature="e#48776#48777#0" expanded="true" />
-            <element signature="e#48842#48843#0" expanded="true" />
-            <element signature="e#50854#50855#0" expanded="true" />
-            <element signature="e#50920#50921#0" expanded="true" />
-            <element signature="e#51016#51017#0" expanded="true" />
-            <element signature="e#51046#51047#0" expanded="true" />
-            <element signature="e#51872#51873#0" expanded="true" />
-            <element signature="e#51938#51939#0" expanded="true" />
-            <element signature="e#56365#56366#0" expanded="true" />
-            <element signature="e#56402#56403#0" expanded="true" />
-            <element signature="e#56503#56855#0" expanded="true" />
-            <element signature="e#56854#56855#0" expanded="true" />
-            <element signature="e#56920#56921#0" expanded="true" />
-            <element signature="e#56947#56948#0" expanded="true" />
-            <element signature="e#57039#57040#0" expanded="true" />
-            <element signature="e#57066#57067#0" expanded="true" />
-            <element signature="e#57148#57149#0" expanded="true" />
-            <element signature="e#57185#57186#0" expanded="true" />
-            <element signature="e#58383#58384#0" expanded="true" />
-            <element signature="e#58411#58412#0" expanded="true" />
-            <element signature="e#58599#58600#0" expanded="true" />
-            <element signature="e#58638#58639#0" expanded="true" />
-            <element signature="e#60420#60421#0" expanded="true" />
-            <element signature="e#60518#60519#0" expanded="true" />
-            <element signature="e#61125#61126#0" expanded="true" />
-            <element signature="e#61187#61188#0" expanded="true" />
-            <element signature="e#62312#62313#0" expanded="true" />
-            <element signature="e#62374#62375#0" expanded="true" />
-            <element signature="e#62464#62465#0" expanded="true" />
-            <element signature="e#62491#62492#0" expanded="true" />
-            <element signature="e#62658#62659#0" expanded="true" />
-            <element signature="e#62720#62721#0" expanded="true" />
-            <element signature="e#62808#62809#0" expanded="true" />
-            <element signature="e#68974#68975#0" expanded="true" />
-            <element signature="e#69023#69024#0" expanded="true" />
-            <element signature="e#69947#69948#0" expanded="true" />
-            <element signature="e#70049#70050#0" expanded="true" />
-            <element signature="e#70553#70554#0" expanded="true" />
-            <element signature="e#70604#70605#0" expanded="true" />
-            <element signature="e#72688#72689#0" expanded="true" />
-            <element signature="e#74591#74592#0" expanded="true" />
-            <element signature="e#74620#74621#0" expanded="true" />
-            <element signature="e#75514#75515#0" expanded="true" />
-            <element signature="e#75580#75581#0" expanded="true" />
-            <element signature="e#77613#77614#0" expanded="true" />
-            <element signature="e#77679#77680#0" expanded="true" />
-            <element signature="e#77777#77778#0" expanded="true" />
-            <element signature="e#77808#77809#0" expanded="true" />
-            <element signature="e#78377#78378#0" expanded="true" />
-            <element signature="e#78443#78444#0" expanded="true" />
-            <element signature="e#78539#78540#0" expanded="true" />
-            <element signature="e#78569#78570#0" expanded="true" />
-            <element signature="e#79763#79764#0" expanded="true" />
-            <element signature="e#79800#79801#0" expanded="true" />
-            <element signature="e#79903#80261#0" expanded="true" />
-            <element signature="e#80260#80261#0" expanded="true" />
-            <element signature="e#80328#80329#0" expanded="true" />
-            <element signature="e#80355#80356#0" expanded="true" />
-            <element signature="e#80449#80450#0" expanded="true" />
-            <element signature="e#80476#80477#0" expanded="true" />
-            <element signature="e#80560#80561#0" expanded="true" />
-            <element signature="e#80597#80598#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="58717">
+          <caret line="2969" column="7" selection-start-line="2969" selection-start-column="7" selection-end-line="2969" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1471,66 +1217,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Deck#0" expanded="false" />
-            <element signature="method#Deck#0;class#Deck#0" expanded="false" />
-            <element signature="method#shuffle#0;class#Deck#0" expanded="false" />
-            <element signature="method#distribute#0;class#Deck#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Contract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tAtout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="8" selection-start-line="8" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="308">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Enum/tValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="7" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="352">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Room.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/ICard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        <state relative-caret-position="286">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Room#0" expanded="false" />
-            <element signature="e#334#342#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
-            <element signature="e#2869#2870#0" expanded="true" />
-            <element signature="e#2909#2910#0" expanded="true" />
-            <element signature="e#2949#2950#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Contract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding>
+            <element signature="docComment;class#Deck#0" expanded="false" />
+            <element signature="method#shuffle#0;class#Deck#0" expanded="false" />
+            <element signature="method#distribute#0;class#Deck#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jcoinche.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        <state relative-caret-position="440">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JCoinche/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Room#0" expanded="false" />
+            <element signature="e#305#313#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#2823#2824#0" expanded="true" />
+            <element signature="e#2855#2856#0" expanded="true" />
+            <element signature="e#2895#2896#0" expanded="true" />
+            <element signature="e#2935#2936#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
