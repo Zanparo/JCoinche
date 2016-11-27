@@ -1,5 +1,8 @@
 package Client;
 
+import JCoinche.Card;
+import com.google.protobuf.ByteString;
+import com.sun.tools.internal.ws.wsdl.document.Input;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFuture;
@@ -7,8 +10,12 @@ import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.util.CharsetUtil;
-import io.netty.util.internal.SystemPropertyUtil;
+import io.proto.jcoinche.JCoincheProtos;
 
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -18,6 +25,7 @@ public class ClientHandler extends SimpleChannelInboundHandler<Object> {
 
     private ByteBuf content;
     private ChannelHandlerContext ctx;
+    private List<JCoincheProtos.Card> _cards= new ArrayList();
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
@@ -38,9 +46,22 @@ public class ClientHandler extends SimpleChannelInboundHandler<Object> {
     @Override
     public void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
         ByteBuf in = (ByteBuf) msg;
-        System.out.println(in.toString(io.netty.util.CharsetUtil.US_ASCII));
-        if (in.toString(io.netty.util.CharsetUtil.US_ASCII).split("|")[0].equals("1"))
+        String[] tab = new String[2];
+        tab[0] = (in.toString(io.netty.util.CharsetUtil.US_ASCII)).substring(0, 1);
+        tab[1] = (in.toString(io.netty.util.CharsetUtil.US_ASCII)).substring(2);
+        System.out.println(tab[1]);
+
+        if (tab[0].equals("1"))
             generateTraffic();
+        if (tab[0].equals("2"))
+        {
+            InputStream stream = new ByteArrayInputStream(tab[1].getBytes());
+            //JCoincheProtos.Card card = JCoincheProtos.Card.parseFrom(stream);
+            _cards.add(JCoincheProtos.Card.parseFrom(stream));
+            //System.out.println(card.getColor());
+            //System.out.println(card.getValue());
+            System.out.println("-----");
+        }
     }
 
     @Override
