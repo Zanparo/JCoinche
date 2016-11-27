@@ -20,3 +20,8 @@ message Contract {
     optional int32 value = 2;
     optional int32 team = 3;
 }
+
+message Card {
+    optional string color = 1;
+    optional string value = 2;
+}

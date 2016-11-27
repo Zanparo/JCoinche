@@ -12,13 +12,14 @@ public class JCoinche {
     public static void main(String[] args) {
         //System.out.println("Hello World");
         Room room = new Room(500, "room1");
-        try
+
+        /*try
         {
             Server serv = new Server(4242);
             serv.run();
         } catch (Exception e) {
             System.out.println("Server : " + e.toString());
-        }
+        }*/
 
     }
 }

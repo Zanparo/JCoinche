@@ -1,6 +1,7 @@
 package JCoinche;
 
 import JCoinche.Enum.tAtout;
+import Server.ClientSession;
 import io.proto.jcoinche.JCoincheProtos;
 
 import java.util.ArrayList;
@@ -21,16 +22,8 @@ public class Room {
     public Room(int scoreMax, String name) {
         _roomName = name;
         _isReady = 0;
-        System.out.println("Room created");
-        /*_players.add(new Player("Roger"));
-        _players.add(new Player("Philippe"));
-        _players.add(new Player("Trevor"));
-        _players.add(new Player("Natalie"));
-        _teams[0] = new Team(0, _players.get(0), _players.get(1));
-        _teams[1] = new Team(1, _players.get(2), _players.get(3));
         _scoreMax = scoreMax;
-        _currentPlayer = _players.get((int)(Math.random() * 4));
-        launchGame();*/
+        launchGame();
     }
 
     public void launchGame()
