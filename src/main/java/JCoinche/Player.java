@@ -1,6 +1,6 @@
 package JCoinche;
 
-//import Server.ClientSession;
+import Server.ClientSession;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,21 +10,24 @@ import java.util.List;
  */
 public class Player implements IActor {
 
-    private String _name = "";
-    private List<Card> _cards = new ArrayList<Card>();
-    private int _team = 0;
-    private Room _room = null;
-  //  private ClientSession _client;
+    private String              _name = "";
+    private List<Card>          _cards = new ArrayList<Card>();
+    private int                 _team = 0;
+    //private Room _room = null;
+    private Room         _room = null;
+    private ClientSession       _client;
+    private boolean             _isReady;
 
-   // public Player(String name, ClientSession client) {
-   //     _name = name;
-   //     _client = client;
-   // }
+    public Player(String name, ClientSession client) {
+        _name = name;
+        _client = client;
+        _isReady = false;
+    }
 
-    public Player(String name)
+    /*public Player(String name)
     {
         _name = name;
-    }
+    }*/
 
     public void addCard(Card card) {
         _cards.add(card);
@@ -62,12 +65,8 @@ public class Player implements IActor {
         }
     }
 
-    public boolean joinRoom(Room room) {
-        if (room.addPlayer(this)) {
+    public void joinRoom(Room room) {
             _room = room;
-            return true;
-        }
-        return false;
     }
 
     public boolean leaveRoom() {
@@ -79,9 +78,29 @@ public class Player implements IActor {
         return true;
     }
 
-   // public void sendMessage(String msg)
-  //  {
-   //     _client.sendMessage(msg);
-   // }
+    public void sendMessage(String msg)
+    {
+        _client.sendMessage(msg);
+    }
+
+    public boolean getStatus()
+    {
+        return (_isReady);
+    }
+
+    public void setStatus(boolean isReady)
+    {
+        _isReady = isReady;
+    }
+
+    public void addRoom(Room room)
+    {
+        _room = room;
+    }
+
+    public Room getRoom()
+    {
+        return (_room);
+    }
 
 }

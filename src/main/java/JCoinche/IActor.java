@@ -5,7 +5,7 @@ package JCoinche;
  */
 public interface IActor {
 
-    public boolean joinRoom(Room room);
+    public void joinRoom(Room room);
     public boolean leaveRoom();
 
 }

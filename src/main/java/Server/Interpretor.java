@@ -1,6 +1,8 @@
 package Server;
 
+import Client.Client;
 import JCoinche.Player;
+import JCoinche.Room;
 
 import java.util.List;
 
@@ -55,6 +57,8 @@ public class                Interpretor implements IInterpretor {
             case 3:
                 ret = manageRoom(msg, client);
                 break;
+            case 4:
+                ret = manageStart(msg, client);
             default:
                 ret = "1|No parsing for this kind of actions";
         }
@@ -65,12 +69,12 @@ public class                Interpretor implements IInterpretor {
     {
         String ret = "";
 
-        List<Room> list = _server.getRoom();
+        List<JCoinche.Room> list = _server.getRoom();
         for (Room room: list) {
             ret += " - " + room.getName() + " " + room.getNumberPlayer() + "/4\n";
         }
         if (ret == "")
-            ret = "1|There is currently no rooms aviable. Please create one in order to play. (3:Name-of-the-room)";
+            ret = "1|There is currently no rooms aviable. Please create one in order to play. (3:Name-of-the-room name)";
         else
             ret = "1|Room list : \n" + ret;
         return (ret);
@@ -86,7 +90,7 @@ public class                Interpretor implements IInterpretor {
             if (msg.equals(room.getName()))
             {
                 room.addPlayer(new Player("Emile", client));
-                ret = "1|Welcome to the room : " + room.getName() + ".";
+                ret = "Welcome to the room : " + room.getName() + ".";
                 if (room.getNumberPlayer() == 4)
                 {
                     room.sendAll("1|If you're ready to start the game type \"4:Ready\"\n");
@@ -96,10 +100,23 @@ public class                Interpretor implements IInterpretor {
         if (ret == "")
         {
             Room room = _server.createRoom(msg);
-            room.addPlayer(new Player("Natalie", client));
+            Player play = new Player("Natalie", client);
+            room.addPlayer(play);
+            client.addPlayer(play);
+            play.joinRoom(room);
             ret = "Welcome to the new room : " + room.getName() + ".";
         }
         System.out.println("Return of the function");
+        return (ret);
+    }
+
+    private String manageStart(String msg, ClientSession client)
+    {
+        String ret = "";
+        if (!msg.equals("Ready"))
+            ret = "1|\"" + msg + "\" is not a command.";
+        else
+            ret = client.getPlayer().getRoom().isReady() + "/4 players are Ready. Waiting for the other player.";
         return (ret);
     }
 
