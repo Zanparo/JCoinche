@@ -15,7 +15,7 @@ public class Player implements IActor {
     private int _team = 0;
     private Room _room = null;
     private ClientSession _client;
-    private boolean       _isReady;
+    private boolean _isReady;
 
    public Player(String name, ClientSession client) {
         _name = name;
