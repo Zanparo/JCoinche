@@ -1,7 +1,7 @@
 package JCoinche;
 
-import JCoinche.Enum.tValue;
-import JCoinche.Enum.tAtout;
+import io.proto.jcoinche.JCoincheProtos.tAtout;
+import io.proto.jcoinche.JCoincheProtos.tValue;
 
 import java.util.ArrayList;
 import java.util.List;

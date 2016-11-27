@@ -5,7 +5,7 @@ import JCoinche.JCoinche;
 /**
  * Created by samue on 25/11/2016.
  */
-public enum tValue {
+/*public enum tValue {
     SEVEN,
     EIGHT,
     NINE,
@@ -14,4 +14,4 @@ public enum tValue {
     QUEEN,
     KING,
     ACE
-}
+}*/

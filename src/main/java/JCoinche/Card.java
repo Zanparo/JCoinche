@@ -1,11 +1,15 @@
 package JCoinche;
 
-import JCoinche.Enum.tAtout;
-import JCoinche.Enum.tValue;
+import io.proto.jcoinche.JCoincheProtos;
+import io.proto.jcoinche.JCoincheProtos.tValue;
+import io.proto.jcoinche.JCoincheProtos.tAtout;
+
+import static io.proto.jcoinche.JCoincheProtos.tValue.*;
 
 /**
  * Created by samue on 24/11/2016.
  */
+
 public class Card implements ICard{
 
     private tValue _value;
@@ -17,8 +21,7 @@ public class Card implements ICard{
         _value = value;
     }
 
-    public void setPoints(tAtout atout)
-    {
+    public void setPoints(tAtout atout) {
         switch (_value) {
             case NINE:
                 if (isAtout(atout)) {
