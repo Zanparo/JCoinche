@@ -22,7 +22,7 @@ public class Room {
         _roomName = name;
         _isReady = 0;
         _scoreMax = scoreMax;
-        launchGame();
+        //launchGame();
     }
 
     public void launchGame()
@@ -34,11 +34,17 @@ public class Room {
     {
         _deck.shuffle();
         _deck.distribute(_players);
-        Round round = new Round(makeContract(), _players);
+        //Round round = new Round(makeContract(), _players);
         for (Player player : _players)
         {
-            JCoincheProtos.Player.Builder playerBuilder = JCoincheProtos.Player.newBuilder();
             player.showHand();
+            for (Card card : player.getCards())
+            {
+                JCoincheProtos.Card.Builder cardBuilder = JCoincheProtos.Card.newBuilder();
+                //cardBuilder.setValue(card.getValue());
+                //cardBuilder.setColor(JCoincheProtos.tAtout.CLUBS);
+                player.sendMessage("2|" + cardBuilder.toString());
+            }
         }
         //startGame();
     }
@@ -68,7 +74,7 @@ public class Room {
     public boolean addPlayer(Player player)
     {
         if (_players.size() < 4) {
-            this.sendAll("Welcome to \"" + player.getName() + "\" on the room. There is " + (this._players.size() + 1) + " out of 4 to start the game\n");
+            this.sendAll("0|Welcome to \"" + player.getName() + "\" on the room. There is " + (this._players.size() + 1) + " out of 4 to start the game\n");
             _players.add(player);
             return true;
         }
@@ -121,7 +127,8 @@ public class Room {
 
     public int isReady()
     {
-        _isReady++;
+        if (_isReady < 4)
+            _isReady++;
         return (_isReady);
     }
 }

@@ -83,6 +83,7 @@ public class                Interpretor implements IInterpretor {
 
     private String          manageRoom(String msg, ClientSession client)
     {
+        boolean newSession = false;
         String ret = "";
         List<Room> list = _server.getRoom();
         System.out.println("RoomlistSize : " + list.size());
@@ -90,11 +91,17 @@ public class                Interpretor implements IInterpretor {
             System.out.println("roomename = \"" + room.getName() + "\" || msg = \"" + msg + "\"");
             if (msg.equals(room.getName()))
             {
-                room.addPlayer(new Player("Emile", client));
-                ret = "Welcome to the room : " + room.getName() + ".";
+                Player play = new Player("Emile", client);
+                room.addPlayer(play);
+                play.joinRoom(room);
+                client.addPlayer(play);
                 if (room.getNumberPlayer() == 4)
                 {
                     room.sendAll("1|If you're ready to start the game type \"4:Ready\"\n");
+                    return ("0| ");
+                }
+                else {
+                    ret = "0|Welcome to the room : " + room.getName() + ".";
                 }
             }
         }
@@ -105,7 +112,7 @@ public class                Interpretor implements IInterpretor {
             room.addPlayer(play);
             play.joinRoom(room);
             client.addPlayer(play);
-            ret = "Welcome to the new room : " + room.getName() + ".";
+            ret = "0|Welcome to the new room : " + room.getName() + ".";
         }
         System.out.println("Return of the function");
         return (ret);
@@ -115,7 +122,11 @@ public class                Interpretor implements IInterpretor {
     {
         String ret = "";
 
-        ret = client.getPlayer().getRoom().isReady() + "/4 players are Ready. Waiting for the other player.";
+        int nb = client.getPlayer().getRoom().isReady();
+        if (nb < 4)
+            ret = "-> " + nb + "/4 players are Ready. Waiting for the other players...";
+        else
+            client.getPlayer().getRoom().init();
         System.out.println("RET = " + ret);
         return (ret);
     }

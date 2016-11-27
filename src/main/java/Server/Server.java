@@ -91,6 +91,7 @@ public class                            Server
     public Room createRoom(String name)
     {
         Room newroom = new Room(1500, name);
+        System.out.println("CREATING A SESSIOSN PUTIN");
         _rooms.add(newroom);
         return (newroom);
     }

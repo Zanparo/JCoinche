@@ -1,6 +1,7 @@
 package JCoinche;
 
 import Server.ClientSession;
+import io.proto.jcoinche.JCoincheProtos;
 
 import java.util.ArrayList;
 import java.util.List;

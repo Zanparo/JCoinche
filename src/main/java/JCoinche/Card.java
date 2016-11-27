@@ -1,6 +1,5 @@
 package JCoinche;
 
-import io.proto.jcoinche.JCoincheProtos;
 import io.proto.jcoinche.JCoincheProtos.tValue;
 import io.proto.jcoinche.JCoincheProtos.tAtout;
 
