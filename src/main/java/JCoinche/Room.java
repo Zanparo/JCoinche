@@ -18,7 +18,7 @@ public class Room {
 
     public Room(int scoreMax, String name) {
         _roomName = name;
-        _players.add(new Player("Roger"));
+        /*_players.add(new Player("Roger"));
         _players.add(new Player("Philippe"));
         _players.add(new Player("Trevor"));
         _players.add(new Player("Natalie"));
@@ -26,7 +26,7 @@ public class Room {
         _teams[1] = new Team(1, _players.get(2), _players.get(3));
         _scoreMax = scoreMax;
         _currentPlayer = _players.get((int)(Math.random() * 4));
-        launchGame();
+        launchGame();*/
     }
 
     public void launchGame()
