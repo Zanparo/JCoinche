@@ -46,21 +46,35 @@ public class ClientHandler extends SimpleChannelInboundHandler<Object> {
     @Override
     public void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
         ByteBuf in = (ByteBuf) msg;
+        String str = in.toString(CharsetUtil.US_ASCII);
         String[] tab = new String[2];
-        tab[0] = (in.toString(io.netty.util.CharsetUtil.US_ASCII)).substring(0, 1);
-        tab[1] = (in.toString(io.netty.util.CharsetUtil.US_ASCII)).substring(2);
-        System.out.println(tab[1]);
+        if (str.charAt(0) == '1' || str.charAt(0) == '0') {
+            tab[0] = (in.toString(CharsetUtil.US_ASCII)).substring(0, 1);
+            tab[1] = (in.toString(CharsetUtil.US_ASCII)).substring(2);
 
-        if (tab[0].equals("1"))
-            generateTraffic();
-        if (tab[0].equals("2"))
+            if ((tab[0].equals("1") || tab[0].equals("0")) && tab.length == 2) {
+                System.out.println(tab[1]);
+                if (tab[0].equals("1"))
+                    generateTraffic();
+            }
+        }
+        else
         {
-            InputStream stream = new ByteArrayInputStream(tab[1].getBytes());
-            //JCoincheProtos.Card card = JCoincheProtos.Card.parseFrom(stream);
-            _cards.add(JCoincheProtos.Card.parseFrom(stream));
-            //System.out.println(card.getColor());
-            //System.out.println(card.getValue());
-            System.out.println("-----");
+            System.out.println("ICI : " + in.toString(CharsetUtil.US_ASCII).length());
+            System.out.write(in.toString(CharsetUtil.US_ASCII).getBytes());
+            int i = 0;
+
+            while ((i * 4) < str.length())
+            {
+                String tmp = str.substring((0 + (i * 4)), (4 + (i * 4)));
+                System.out.println("tmp = " + tmp + " size = " + tmp.length());
+                JCoincheProtos.Card card = JCoincheProtos.Card.parseFrom(tmp.getBytes());
+                //_cards.add(JCoincheProtos.Card.parseFrom(stream));
+                System.out.println(card.getColor());
+                System.out.println(card.getValue());
+                System.out.println("-----");
+                i++;
+            }
         }
     }
 

@@ -124,7 +124,7 @@ public class                Interpretor implements IInterpretor {
 
         int nb = client.getPlayer().getRoom().isReady();
         if (nb < 4)
-            ret = "-> " + nb + "/4 players are Ready. Waiting for the other players...";
+            ret = "0|" + nb + "/4 players are Ready. Waiting for the other players...";
         else
             client.getPlayer().getRoom().init();
         System.out.println("RET = " + ret);

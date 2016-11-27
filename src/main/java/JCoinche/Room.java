@@ -41,9 +41,10 @@ public class Room {
             for (Card card : player.getCards())
             {
                 JCoincheProtos.Card.Builder cardBuilder = JCoincheProtos.Card.newBuilder();
-                //cardBuilder.setValue(card.getValue());
-                //cardBuilder.setColor(JCoincheProtos.tAtout.CLUBS);
-                player.sendMessage("2|" + cardBuilder.toString());
+                cardBuilder.setValue(card.getValue());
+                cardBuilder.setColor(card.getColor());
+                String s = new String(cardBuilder.build().toByteArray());
+                player.sendMessage(s);
             }
         }
         //startGame();
