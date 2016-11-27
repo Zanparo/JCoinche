@@ -1,9 +1,27 @@
 package JCoinche;
 
-option java_package = "JCoinche";
+option java_package = "io.proto.jcoinche";
 option java_outer_classname = "JCoincheProtos";
+
+message Room {
+    optional string name = 1;
+    optional int32 scoreMax = 2;
+    optional Player currentPlayer = 3;
+}
+
+message Player {
+    optional string name = 1;
+    optional int32 team = 2;
+    optional Room room = 3;
+}
 
 message Contract {
     optional string atout = 1;
     optional int32 value = 2;
+    optional int32 team = 3;
+}
+
+message Card {
+    optional string color = 1;
+    optional string value = 2;
 }

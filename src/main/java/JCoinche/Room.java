@@ -1,6 +1,7 @@
 package JCoinche;
 
 import JCoinche.Enum.tAtout;
+import io.proto.jcoinche.JCoincheProtos;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,8 +19,7 @@ public class Room {
 
     public Room(int scoreMax, String name) {
         _roomName = name;
-        System.out.println("Room created");
-        /*_players.add(new Player("Roger"));
+        _players.add(new Player("Roger"));
         _players.add(new Player("Philippe"));
         _players.add(new Player("Trevor"));
         _players.add(new Player("Natalie"));
@@ -27,7 +27,7 @@ public class Room {
         _teams[1] = new Team(1, _players.get(2), _players.get(3));
         _scoreMax = scoreMax;
         _currentPlayer = _players.get((int)(Math.random() * 4));
-        launchGame();*/
+        launchGame();
     }
 
     public void launchGame()
@@ -42,10 +42,10 @@ public class Room {
         Round round = new Round(makeContract(), _players);
         for (Player player : _players)
         {
-            System.out.println("For player :" + player.getName());
+            JCoincheProtos.Player.Builder playerBuilder = JCoincheProtos.Player.newBuilder();
             player.showHand();
         }
-      //  startGame();
+        //startGame();
     }
 
     public void startGame()
@@ -61,7 +61,13 @@ public class Room {
 
     public Contract makeContract()
     {
-        return new Contract(80, _teams[0], tAtout.HEARTS);
+        Contract contract = new Contract(80, _teams[0], tAtout.HEARTS);
+        JCoincheProtos.Contract.Builder build = JCoincheProtos.Contract.newBuilder();
+        build.setAtout(contract.getAtout().toString());
+        build.setValue(contract.getValue());
+        build.setTeam(contract.getTeam().getId());
+        System.out.println(build.toString());
+        return contract;
     }
 
     public boolean addPlayer(Player player)

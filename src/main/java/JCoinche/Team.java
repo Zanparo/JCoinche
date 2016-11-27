@@ -29,4 +29,6 @@ public class Team  implements ITeam{
     {
         _score += score;
     }
+
+    public int getId() { return _id; }
 }
