@@ -10,16 +10,19 @@ import java.util.List;
  * Created by samue on 24/11/2016.
  */
 public class Room {
-    private Deck _deck = new Deck();
-    private List<Player> _players = new ArrayList<Player>();
-    private Team[] _teams = new Team[2];
-    private int _scoreMax;
-    private Player _currentPlayer;
-    private String _roomName;
+    private Deck            _deck = new Deck();
+    private List<Player>    _players = new ArrayList<Player>();
+    private Team[]          _teams = new Team[2];
+    private int             _scoreMax;
+    private Player          _currentPlayer;
+    private String          _roomName;
+    private int             _isReady;
 
     public Room(int scoreMax, String name) {
         _roomName = name;
-        _players.add(new Player("Roger"));
+        _isReady = 0;
+        System.out.println("Room created");
+        /*_players.add(new Player("Roger"));
         _players.add(new Player("Philippe"));
         _players.add(new Player("Trevor"));
         _players.add(new Player("Natalie"));
@@ -27,7 +30,7 @@ public class Room {
         _teams[1] = new Team(1, _players.get(2), _players.get(3));
         _scoreMax = scoreMax;
         _currentPlayer = _players.get((int)(Math.random() * 4));
-        launchGame();
+        launchGame();*/
     }
 
     public void launchGame()
@@ -73,6 +76,7 @@ public class Room {
     public boolean addPlayer(Player player)
     {
         if (_players.size() < 4) {
+            this.sendAll("Welcome to \"" + player.getName() + "\" on the room. There is " + (this._players.size() + 1) + " out of 4 to start the game\n");
             _players.add(player);
             return true;
         }
@@ -107,5 +111,25 @@ public class Room {
     public String getName()
     {
         return _roomName;
+    }
+
+    public int getNumberPlayer()
+    {
+        return (_players.size());
+    }
+
+    public void sendAll(String msg)
+    {
+        for (Player play: _players)
+        {
+            play.sendMessage(msg);
+        }
+        return;
+    }
+
+    public int isReady()
+    {
+        _isReady++;
+        return (_isReady);
     }
 }

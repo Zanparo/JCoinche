@@ -15,15 +15,12 @@ public class Player implements IActor {
     private int _team = 0;
     private Room _room = null;
     private ClientSession _client;
+    private boolean       _isReady;
 
    public Player(String name, ClientSession client) {
         _name = name;
         _client = client;
-    }
-
-    public Player(String name)
-    {
-        _name = name;
+        _isReady = false;
     }
 
     public void addCard(Card card) {
@@ -62,12 +59,8 @@ public class Player implements IActor {
         }
     }
 
-    public boolean joinRoom(Room room) {
-        if (room.addPlayer(this)) {
+    public void joinRoom(Room room) {
             _room = room;
-            return true;
-        }
-        return false;
     }
 
     public boolean leaveRoom() {
@@ -84,4 +77,23 @@ public class Player implements IActor {
         _client.sendMessage(msg);
     }
 
+    public boolean getStatus()
+    {
+        return (_isReady);
+    }
+
+    public void setStatus(boolean isReady)
+    {
+        _isReady = isReady;
+    }
+
+    public void addRoom(Room room)
+    {
+        _room = room;
+    }
+
+    public Room getRoom()
+    {
+        return (_room);
+    }
 }

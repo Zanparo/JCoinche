@@ -38,7 +38,7 @@ public class ClientHandler extends SimpleChannelInboundHandler<Object> {
     @Override
     public void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
         ByteBuf in = (ByteBuf) msg;
-        System.out.println(in.toString(io.netty.util.CharsetUtil.US_ASCII).split("|")[1]);
+        System.out.println(in.toString(io.netty.util.CharsetUtil.US_ASCII));
         if (in.toString(io.netty.util.CharsetUtil.US_ASCII).split("|")[0].equals("1"))
             generateTraffic();
     }

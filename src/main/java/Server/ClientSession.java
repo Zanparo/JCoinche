@@ -1,5 +1,6 @@
 package Server;
 
+import JCoinche.Player;
 import io.netty.buffer.ByteBuf;
 
 import io.netty.buffer.Unpooled;
@@ -17,7 +18,7 @@ public class ClientSession extends SimpleChannelInboundHandler<Object> {
     private ByteBuf                 content;
     private ChannelHandlerContext   ctx;
     private Interpretor             _interpretor;
-    //private Room                  _room;
+    private Player                  _play;
 
     public ClientSession(Interpretor interpretor)
     {
@@ -59,6 +60,16 @@ public class ClientSession extends SimpleChannelInboundHandler<Object> {
             ctx.writeAndFlush(Unpooled.copiedBuffer(msg, CharsetUtil.UTF_8));
         }
         return;
+    }
+
+    public void    addPlayer(Player play)
+    {
+        _play = play;
+    }
+
+    public Player getPlayer()
+    {
+        return (_play);
     }
 
 }

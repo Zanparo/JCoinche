@@ -1,6 +1,7 @@
 package Server;
 
 // import netty
+import JCoinche.*;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -9,6 +10,8 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+
+import JCoinche.Room;
 
 // import java
 import java.util.ArrayList;
@@ -25,7 +28,7 @@ public class                            Server
     //
     private int                         _port;
     private Interpretor                 _interpretor;
-    private List<Room>                  _rooms;
+    private List<Room>         _rooms;
     private List<ClientSession>         _clients;
     private Server                      _this;
 
@@ -85,7 +88,7 @@ public class                            Server
         return (_rooms);
     }
 
-    public Room                         createRoom(String name)
+    public Room createRoom(String name)
     {
         Room newroom = new Room(1500, name);
         _rooms.add(newroom);
