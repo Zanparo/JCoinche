@@ -18,6 +18,7 @@ public class Room {
 
     public Room(int scoreMax, String name) {
         _roomName = name;
+        System.out.println("Room created");
         /*_players.add(new Player("Roger"));
         _players.add(new Player("Philippe"));
         _players.add(new Player("Trevor"));

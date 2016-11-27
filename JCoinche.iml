@@ -12,5 +12,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="io.netty:netty-all:4.0.42.Final" level="project" />
+    <orderEntry type="library" name="com.google.protobuf:protobuf-java:3.1.0" level="project" />
   </component>
 </module>

@@ -1,6 +1,6 @@
 package JCoinche;
 
-import Server.ClientSession;
+//import Server.ClientSession;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,11 +14,16 @@ public class Player implements IActor {
     private List<Card> _cards = new ArrayList<Card>();
     private int _team = 0;
     private Room _room = null;
-    private ClientSession _client;
+  //  private ClientSession _client;
 
-    public Player(String name, ClientSession client) {
+   // public Player(String name, ClientSession client) {
+   //     _name = name;
+   //     _client = client;
+   // }
+
+    public Player(String name)
+    {
         _name = name;
-        _client = client;
     }
 
     public void addCard(Card card) {
@@ -74,9 +79,9 @@ public class Player implements IActor {
         return true;
     }
 
-    public void sendMessage(String msg)
-    {
-        _client.sendMessage(msg);
-    }
+   // public void sendMessage(String msg)
+  //  {
+   //     _client.sendMessage(msg);
+   // }
 
 }

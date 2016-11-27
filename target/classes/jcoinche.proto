@@ -1,7 +1,7 @@
 package JCoinche;
 
-option java_package = "JCoinche"
-option java_outer_classname = "JCoincheProtos"
+option java_package = "JCoinche";
+option java_outer_classname = "JCoincheProtos";
 
 message Contract {
     optional string atout = 1;
